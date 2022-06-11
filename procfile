@@ -1,1 +1,1 @@
-web: gunicorn Weather_API
+web: gunicorn --chdir Weather_API Weather_API.wsgi
